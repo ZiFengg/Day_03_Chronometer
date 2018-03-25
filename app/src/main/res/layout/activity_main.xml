@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </LinearLayout>
+    <!--定义一个计时器控件-->
+    <Chronometer
+        android:id="@+id/test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <!--创建三个按钮-->
+    <Button
+        android:text="开始"
+        android:id="@+id/srart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:enabled="false"
+        android:text="计数"
+        android:id="@+id/jishu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:enabled="false"
+        android:text="停止"
+        android:id="@+id/stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
